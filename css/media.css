@@ -1,0 +1,62 @@
+        @media (max-width: 1200px) {
+        html {
+            font-size: 14px;
+        }
+
+        @media (max-width: 991px) {
+            html {
+                font-size: 8px;
+            }
+            .main .main-text span {
+                font-size: 16px;
+            }
+            .main .main-text p {
+                font-size: 13px;
+            }
+
+            .visible-lg {
+                display: none;
+            }
+            .m-menu-link {
+                display: block;
+                color: #fff;
+                font-size: 3rem;
+            }
+            .touch {
+                margin: 0;
+            }
+
+            .price-tags {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-content: center;
+                flex-wrap: wrap-reverse;
+                align-items: center;
+
+            }
+
+            .price-tag {
+                margin-top: 40px;
+
+            }
+
+            .price-tag span {
+                font-size: 4rem;
+            }
+
+            .price-tag h4 {
+                font-size: 3rem;
+            }
+            .price-tag p {
+                font-size: 13px;
+            }
+
+            .table {
+                height: 340vh;
+            }
+
+            .footer-menu ul li a {
+                font-size: 11px;
+            }
+        }
